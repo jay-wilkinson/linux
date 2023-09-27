@@ -159,7 +159,7 @@ Thin provisioning
 
 i) Creating a new thinly-provisioned volume.
 
-  To create a new thinly- provisioned volume you must send a message to an
+  To create a new thinly-provisioned volume you must send a message to an
   active pool device, /dev/mapper/pool in this example::
 
     dmsetup message /dev/mapper/pool 0 "create_thin 0"
